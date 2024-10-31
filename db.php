@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root"; // default XAMPP username
-$password = "Rimsha@1234"; // default XAMPP password
+$username = "******"; // default XAMPP username
+$password = "*******"; // default XAMPP password
 $dbname = "penny_tracker";
 
 // Create connection
