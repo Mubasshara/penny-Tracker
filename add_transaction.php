@@ -141,9 +141,9 @@
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Database connection parameters
-        $servername = "localhost";
-        $username = "root"; // default XAMPP username
-        $password = "Rimsha@1234"; // default XAMPP password
+        $servername = "******";
+        $username = "*****"; // default XAMPP username
+        $password = "******"; // default XAMPP password
         $dbname = "penny_tracker";
 
         // Create connection
