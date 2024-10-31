@@ -30,14 +30,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();                                           // Send using SMTP
         $mail->Host       = 'smtp.gmail.com';                      // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                  // Enable SMTP authentication
-        $mail->Username   = 'mubasshara786khan@gmail.com';                // SMTP username
-        $mail->Password   = 'pywh uapg tfzf lqdn';                    // SMTP password (use an app password if 2FA is enabled)
+        $mail->Username   = '**********@gmail.com';                // SMTP username
+        $mail->Password   = '****************';                    // SMTP password (use an app password if 2FA is enabled)
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;          // Enable TLS encryption; `PHPMailer::ENCRYPTION_STARTTLS` also accepted
         $mail->Port       = 587;                                   // TCP port to connect to
 
         // Recipients
         $mail->setFrom($email, $name);
-        $mail->addAddress('mubassharakhan2022@vitbhopal.ac.in');               // Add a recipient
+        $mail->addAddress('**************@gmail.com');               // Add a recipient
 
         // Content
         $mail->isHTML(false);                                    // Set email format to HTML
